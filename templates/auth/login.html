@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <link href="{% static 'auth/login.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="mouse-parallax">
+        <div class="-mouse-parallax__background"></div>
+        <div class="-mouse-parallax__blur"></div>
+        <div class="container-block">
+            <div class="filler"></div>
+            <div class="form-auth-block">
+                <div class="form-block">
+                    <form>
+                        <div class="input-block">
+                            <label for="">Login</label>
+                            <input type="text">
+                        </div>
+                        
+                        <div class="input-block">
+                            <label for="">Password</label>
+                            <input type="password">
+                        </div>
+                        
+                        <div class="btn-block">
+                            <button class="btn_in">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+
+            <div class="filler"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/static/auth/login.js"></script>
+</body>
+</html>
